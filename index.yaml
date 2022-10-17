@@ -3,6 +3,16 @@ entries:
   notification:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2022-10-17T07:42:41.141898996Z"
+    description: A Helm chart for Kubernetes
+    digest: 4ad7547ee6609dd46153c949983771fd2088ece452676be491bd5cd0832295fb
+    name: notification
+    type: application
+    urls:
+    - https://github.com/prashant-alraedah/helm-charts/releases/download/notification-2.0.0/notification-2.0.0.tgz
+    version: 2.0.0
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2022-10-17T04:58:20.568156565Z"
     description: A Helm chart for Kubernetes
     digest: ba7caf128f4f9bb1bb972567063b39c9129166fa3427c24f9f1f266c470cab81
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/prashant-alraedah/helm-charts/releases/download/notification-1.0.0/notification-1.0.0.tgz
     version: 1.0.0
-generated: "2022-10-17T04:58:20.568171165Z"
+generated: "2022-10-17T07:42:41.141907997Z"
