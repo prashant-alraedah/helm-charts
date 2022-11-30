@@ -8,7 +8,7 @@ image:
   repository: jed.ocir.io/ax28akjehipn/dev/notification-k8s
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: ""
 
 containerPort: 80
 imagePullSecrets: ocirsecret

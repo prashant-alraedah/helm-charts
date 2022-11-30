@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: {{ template "notification.fullname" . }}
-          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          image: "{{ .Values.image.repository }}:{{ default .Chart.AppVersion .Values.image.tag }}"
           ports:
             - containerPort: {{ .Values.containerPort }}
           imagePullPolicy: {{ .Values.imagePullPolicy }}
